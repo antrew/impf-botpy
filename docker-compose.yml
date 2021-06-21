@@ -2,10 +2,7 @@
 version: "3"
 services:
     impf-botpy:
-        build:
-            context: .
-            dockerfile: ./docker/Dockerfile
-        container_name: impf-botpy
+        build: .
         volumes:
             - ./settings.py:/app/settings.py
         ports:

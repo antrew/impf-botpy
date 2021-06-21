@@ -7,7 +7,6 @@
 
 ## Setup
 
-* `mv docker/docker-compose.yml .`
 * Configure `VNC_PASSWORD` environment variable in `docker-compose.yml`
 * `docker-compose up`
 
