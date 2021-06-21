@@ -18,8 +18,8 @@ The container exposes port `6901 (noVNC)`. If you also want to expose `5901 (VNC
 add `-localhost no :1` to the `vncserver` command in the Dockerfile.
 
 You can access the container's Xserver (Desktop) using VNC or via noVNC, which is essentially a web-based VNC client.
-Simply connect to `<ip-addr>:6901` and enter the `VNC_PASSWORD` previously specified. The preconfigured password is
-`CHANGEME`.
+Simply connect to http://localhost:6901/ or `<ip-addr>:6901` and enter the `VNC_PASSWORD` previously specified.
+The preconfigured password is `CHANGEME`.
 
 Reminder: If you're running Docker on a VPS or another remote system, you can forward the port after setting 
 `AllowTcpForwarding yes` and `GatewayPorts yes` in your `/etc/ssh/sshd_config` and restarting your ssh server. Forward 
