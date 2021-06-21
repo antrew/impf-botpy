@@ -8,7 +8,7 @@
 ## Setup
 
 * Configure `VNC_PASSWORD` environment variable in `docker-compose.yml`
-* `docker-compose up`
+* `docker-compose up --build`
 
 The Container is always built during runtime - there is no DockerHub repo to pull images from directly.
 
